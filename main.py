@@ -24,7 +24,7 @@ async def imagine(ctx, prompt: Option(str, "Enter the prompt for the image:")):
             prompt=prompt,
             size="1024x1024",
             quality="standard",
-            n=1,
+            n=4,
             response_format="url"
         )
         
